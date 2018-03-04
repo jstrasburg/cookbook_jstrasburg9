@@ -1,0 +1,61 @@
+$backgroundColor: #ddd;
+$contentBackgroundColor: #fff;
+$hoverColor: #999;
+$textColor: #333;
+$width: 960px;
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+}
+
+.container {
+  backgroundColor: $contentBackgroundColor;
+  margin: 0 auto;
+  
+  @media only screen and (min-width: $width) {
+    width: $width;
+  }
+  
+  @media onlly screen and (min-width: $width -1) {
+    width: 90%;
+  }
+}
+
+.content, header, footer {
+  padding: 1%;  
+}
+
+footer {
+  text-align: center;
+}
+
+$navColor: #ccc;
+
+nav {
+  background-color: #ccc;
+  text-align: center;
+  
+  &>a{
+    color: inherit;
+    padding: 1%;
+    text-decoration: none;
+    
+  &:hover, &:focus{
+    color: $hoverColor;
+  }
+  }
+<div class="field">
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</div>
+
+<div class="actions">
+  <%= f.submit %>
+</div>
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+  
+}
