@@ -1,0 +1,10 @@
+Sun, 04 Mar 2018 21:36:14 +0000
+README.rdoc	Wed, 31 Jan 2018 01:45:31 +0000
+app/controllers/application_controller.rb	Tue, 13 Feb 2018 02:13:45 +0000
+app/controllers/home_controller.rb	Sun, 04 Mar 2018 21:34:53 +0000
+app/controllers/recipes_controller.rb	Sun, 11 Feb 2018 22:56:36 +0000
+app/helpers/application_helper.rb	Wed, 31 Jan 2018 01:45:07 +0000
+app/helpers/home_helper.rb	Wed, 31 Jan 2018 02:01:47 +0000
+app/helpers/recipes_helper.rb	Sun, 04 Feb 2018 23:29:34 +0000
+app/models/category.rb	Sun, 11 Feb 2018 19:42:23 +0000
+app/models/recipe.rb	Sun, 04 Mar 2018 20:02:38 +0000
